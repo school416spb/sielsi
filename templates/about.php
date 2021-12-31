@@ -13,7 +13,7 @@
 <hr>
 
 <div class="alert alert-danger" role="alert">
-    <i class="fa fa-desktop" aria-hidden="true"></i> Сканированные документы подписываются не всегда!
+    <i class="fa fa-exclamation-circle" aria-hidden="true"></i> Подписываются документы исключительно формата PDF/A (PDF 1.4)
 </div>
 
 <div class="alert alert-primary" role="alert">
