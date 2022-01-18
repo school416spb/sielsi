@@ -49,7 +49,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Простая электронная подпись</title>
+    <title>SIELSI &mdash; Простая электронная подпись</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css?<?php echo time(); ?>">
     <link rel="shortcut icon" href="../img/favicon.ico">
@@ -88,14 +88,14 @@
             <hr>
             
             <?php include("../templates/position.php"); ?>
-		
-	    <div class="form-check form-check-inline">
+            
+            <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="whereIS" id="inlineRadio" value="1" required="" checked="" style="cursor: pointer;" title="Печать на первом листе">
               <label class="form-check-label text-secondary" for="inlineRadio">Печать на первом листе</label>
             </div>
             
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="whereIS" id="inlineRadio" value="2" required="" disabled="" style="cursor: pointer;" title="Печать на всех листах">
+              <input class="form-check-input" type="radio" name="whereIS" id="inlineRadio" value="2" required="" style="cursor: pointer;" title="Печать на всех листах">
               <label class="form-check-label text-secondary" for="inlineRadio">Печать на всех листах</label>
             </div>
             
@@ -111,10 +111,10 @@
             <hr>
             
             <p>
-		<button type="submit" name="upload" class="btn btn-outline-success btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Подписать</button> 
-		<button type="reset" name="clear" class="btn btn-outline-primary btn-sm"><i class="fa fa-ban" aria-hidden="true"></i> Cброс</button>
-		<a href="main.php" class="btn btn-outline-secondary btn-sm"><i class="fa fa-refresh" aria-hidden="true"></i> Обновить</a>
-	    </p>
+                <button type="submit" name="upload" class="btn btn-outline-success btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Подписать</button> 
+                <button type="reset" name="clear" class="btn btn-outline-primary btn-sm"><i class="fa fa-ban" aria-hidden="true"></i> Cброс</button>
+                <a href="main.php" class="btn btn-outline-secondary btn-sm"><i class="fa fa-refresh" aria-hidden="true"></i> Обновить</a>
+            </p>
 
         </form>
         
