@@ -1,4 +1,4 @@
-            <p class="text-secondary">Ориентация листа: <select disabled="" name="orient"><option value="1">Книжная</option><option value="2">Альбомная</option></select><small>пока не реализовано, только книжная</small></p>
+            <p class="text-secondary">Ориентация листа: <select disabled="" name="orient"><option value="1">Книжная</option><option value="2">Альбомная</option></select> <small>пока не реализовано, только книжная</small></p>
             
             <hr>
             
