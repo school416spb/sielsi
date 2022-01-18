@@ -58,12 +58,13 @@
 			<div class="col-12 col-sm-9 col-md-7 col-lg-5 text-center">
 				<div class="login">
 
-                    <p><img src="img/flash.jpg" alt="" width="64"></p>
+                                       <!--<p><img src="img/flash.jpg" alt="" width="64"></p>
+					<h3 class="text-primary text-uppercase">Электронная подпись</h3>-->
 
-					<h3 class="text-primary text-uppercase">Электронная подпись</h3>
+                                        <p><img src="img/sign-front.jpg" alt="" class="img-fluid"></p>
 
 					<p>
-						<small class="text-secondary">подписание PDF документов для сайта</small>
+					    <small class="text-secondary">SIELSI.RU &mdash; сервис простой электронной подписи PDF документов для размещения на официальном сайте ОУ</small>
 					</p>
 
 					<form action="" method="POST">
