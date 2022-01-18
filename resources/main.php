@@ -100,12 +100,16 @@
             
             <hr>
             
-            <p><button type="submit" name="upload" class="btn btn-outline-success btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Подписать</button> <button type="reset" name="clear" class="btn btn-outline-warning btn-sm"><i class="fa fa-ban" aria-hidden="true"></i> Cброс</button></p>
+            <p>
+		<button type="submit" name="upload" class="btn btn-outline-success btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Подписать</button> 
+		<button type="reset" name="clear" class="btn btn-outline-primary btn-sm"><i class="fa fa-ban" aria-hidden="true"></i> Cброс</button>
+		<a href="main.php" class="btn btn-outline-secondary btn-sm"><i class="fa fa-refresh" aria-hidden="true"></i> Обновить</a>
+	    </p>
 
         </form>
         
         <form method="POST">
-            <button type="submit" class="btn btn-outline-danger btn-sm" name="exit">
+            <button type="submit" class="btn btn-outline-danger" name="exit">
                 <i class="fa fa-sign-out" aria-hidden="true"></i> Выход
             </button>
         </form>
