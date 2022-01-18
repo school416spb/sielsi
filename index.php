@@ -1,5 +1,5 @@
 <?php /*логинизация пользователя*/
-		    if (isset($_POST['enter'])) {
+		if (isset($_POST['enter'])) {
 
                 $login = htmlspecialchars($_POST['login']);
                 $password = htmlspecialchars($_POST['password']);
@@ -42,7 +42,7 @@
 <!DOCTYPE html><!--Давыдов Д.Э. (с) 2021-->
 <html lang="ru">
 <head>
-	<title>Простая электронная подпись</title>
+	<title>SIELSI &mdash; Простая электронная подпись</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,13 +58,13 @@
 			<div class="col-12 col-sm-9 col-md-7 col-lg-5 text-center">
 				<div class="login">
 
-                                       <!--<p><img src="img/flash.jpg" alt="" width="64"></p>
+                    <!--<p><img src="img/flash.jpg" alt="" width="64"></p>
 					<h3 class="text-primary text-uppercase">Электронная подпись</h3>-->
 
-                                        <p><img src="img/sign-front.jpg" alt="" class="img-fluid"></p>
+                    <p><img src="img/sign-front.jpg" alt="" class="img-fluid"></p>
 
 					<p>
-					    <small class="text-secondary">SIELSI.RU &mdash; сервис простой электронной подписи PDF документов для размещения на официальном сайте ОУ</small>
+						<small class="text-secondary"><strong>SIELSI</strong> &mdash; веб-сервис простой электронной подписи PDF документов для размещения на официальном сайте ОУ</small>
 					</p>
 
 					<form action="" method="POST">
@@ -79,7 +79,29 @@
 
 				</div>
 			</div>
+			
+			<div class="col-12 text-center" style="margin-top: 25px;">
+			    
+			    <p><a href="https://github.com/school416spb/sielsi.git" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Исходный код проекта</a></p>
+			    
+			</div>
+			
 		</div>
+
+		
+		<div class="row justify-content-sm-center" style="margin-top: 15px;">
+		<div class="col-12 col-sm-9 col-md-7 col-lg-5">
+			 
+		    <div class="alert alert-info" role="alert">
+              Для подключения новой организации к сервису необходимо написать письмо по адресу 
+              <strong><?php include('templates/mail.php'); ?></strong>, 
+              сообщив ИНН организации и адрес официального школьного сайта.
+            </div>	 
+			    
+		</div>
+		</div
+		
+		
 	</div>
 </body>
 </html>
