@@ -104,7 +104,13 @@ catch (Exception $ex) {
     unlink("../tmp/".$_FILES["filename"]["name"]);
     echo '<p style="text-align: center;"><img src="../img/error.gif" alt="" width="128"></p>
           <p style="text-align: center; font-size: 24px; color: #f00;"><strong>Подписываются документы исключительно формата PDF/A (PDF версии 1.4)</strong></p>
-          <p style="text-align: center; font-size: 24px;"><a href="../resources/main.php"><< Вернуться назад</a></p>';
+          <p style="text-align: center; font-size: 24px; color: #f00;">Рекомендуем для экспорта в PDF использовать редакторы 
+          <a href="https://www.libreoffice.org/download/download/?lang=ru" target="_blank">LibreOffice</a> или 
+          <a href="https://www.onlyoffice.com/ru/download-desktop.aspx?affChecked=1" target="_blank">OnlyOffice</a></p>
+          <hr>
+          <p style="text-align: center; font-size: 24px;"><a href="../resources/main.php">Вернуться назад</a></p>
+          <hr>
+          <p style="text-align: center;"><small>2021 &copy; Давыдов Д.Э.</small></p>';
 }
 
 for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
