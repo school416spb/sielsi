@@ -180,7 +180,7 @@
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
         
-        <strong><i class="fa fa-paint-brush" aria-hidden="true"></i> Цвет печати: </strong> 
+        <strong><i class="fa fa-paint-brush" aria-hidden="true"></i> Цвет печати (RGB): </strong> 
         
         <?php
         include('../php/cfg.php');
