@@ -1,1 +1,1 @@
-support@school416spb.ru
+your@mail.ru
