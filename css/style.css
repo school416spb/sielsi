@@ -1,61 +1,67 @@
 .login{
-border: 1px solid #fffafa;
-padding: 25px;
-border-radius: 5px;
-margin-top: 10%;
-background-color: #fff;
+  border: 1px solid #fffafa;
+  padding: 25px;
+  border-radius: 5px;
+  margin-top: 10%;
+  background-color: #fff;
 }
 
 .login img{
-opacity: 0.5;
+  opacity: 0.5;
 }
 
 .login:hover img{
-opacity: 1;
-transition: 0.25s;
+  opacity: 1;
+  transition: 0.25s;
 }
 
 .login:not(:hover) img{
-transition: 0.25s;
+  transition: 0.25s;
 }
 
 .login:hover{
-transition: 0.25s;
-box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
-border: 5px solid #a9a9a9;
+  transition: 0.25s;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
+  border: 5px solid #a9a9a9;
 }
 
 .login:not(:hover){
-transition: 0.25s;
+  transition: 0.25s;
 }
 
 body{
-background-image: url('img/bg.png');
-background-size: cover;
-background-attachment: fixed;
+  background-image: url('img/bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body{
+	background-image: url('../img/bg.png');
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .accordion{
-box-shadow: 0px 0px 15px rgba(0,0,0,0.25);  
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.25);  
 }
 
 .footer{
-margin-top: 20px; 
+  margin-top: 20px; 
 }
 
 .stamp{
-width: 32px;
-height: 32px;
-float: right;
-margin-right: 800px;
-margin-top: -5px;
+  width: 32px;
+  height: 32px;
+  float: right;
+  margin-right: 800px;
+  margin-top: -5px;
 }
 
 .a4{
-border: 1px solid #e5e5e5;
-width: 205px;
-padding: 10px;
-height: 260px;
-margin-bottom: 15px;  
-box-shadow: 3px 3px 5px rgba(0,0,0,0.25);
+  border: 1px solid #e5e5e5;
+  width: 205px;
+  padding: 10px;
+  height: 260px;
+  margin-bottom: 15px;  
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.25);
 }
