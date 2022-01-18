@@ -88,6 +88,16 @@
             <hr>
             
             <?php include("../templates/position.php"); ?>
+		
+	    <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="whereIS" id="inlineRadio" value="1" required="" checked="" style="cursor: pointer;" title="Печать на первом листе">
+              <label class="form-check-label text-secondary" for="inlineRadio">Печать на первом листе</label>
+            </div>
+            
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="whereIS" id="inlineRadio" value="2" required="" disabled="" style="cursor: pointer;" title="Печать на всех листах">
+              <label class="form-check-label text-secondary" for="inlineRadio">Печать на всех листах</label>
+            </div>
             
             <hr>
             
