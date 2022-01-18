@@ -74,6 +74,9 @@ $conn->close();
 //позиция отрисовки
 $select = $_POST['select'];
 
+//количество штампов
+$whereIS = $_POST['whereIS'];
+
 //получение даты и времени подписания
 $date = date('d.m.Y', strtotime($_POST["date"]));
 $time = $_POST["time"];
@@ -101,7 +104,7 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
 
     $pdf->useTemplate($templateId);
 
-    if ($firstPage==1){
+    if (($firstPage==1)&&($whereIS==1)){
         
         //отрисовка полей штампа и его размеры
         $pdf->SetDrawColor($red,$green,$blue);
