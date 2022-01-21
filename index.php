@@ -1,5 +1,5 @@
 <?php /*логинизация пользователя*/
-		if (isset($_POST['enter'])) {
+		    if (isset($_POST['enter'])) {
 
                 $login = htmlspecialchars($_POST['login']);
                 $password = htmlspecialchars($_POST['password']);
@@ -66,6 +66,9 @@
 					<p>
 						<small class="text-secondary"><strong>SIELSI</strong> &mdash; веб-сервис простой электронной подписи PDF документов для размещения на официальном сайте ОУ</small>
 					</p>
+					
+					<!--на время работ (при необходимости) раскоментировать надвись и закоментировать форму. Потом вернуть обратно!-->
+					<!--<p class="text-danger text-uppercase">Временно ведутся работы!!!</p>-->
 
 					<form action="" method="POST">
   						<p><input type="number" name="login" class="form-control" placeholder="ИНН организации" required="" autocomplete="off" min="0"></p>
