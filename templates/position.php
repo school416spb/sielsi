@@ -1,4 +1,9 @@
-            <p class="text-secondary">Ориентация листа: <select disabled="" name="orient"><option value="1">Книжная</option><option value="2">Альбомная</option></select> <small>пока не реализовано, только книжная</small></p>
+            <p class="text-secondary">Ориентация документа: 
+            <select name="orient">
+                <option value="1">Книжная</option>
+                <option value="2">Альбомная</option>
+            </select>
+            </p>
             
             <hr>
             
@@ -8,7 +13,7 @@
             1/4: 
             
             <div class="form-check form-check-inline"> 
-              <input class="form-check-input" type="radio" name="select" id="inlineRadio1" value="left-1" required="" style="cursor: pointer;" title="Слева сверху">
+              <input class="form-check-input" type="radio" checked="" name="select" id="inlineRadio1" value="left-1" required="" style="cursor: pointer;" title="Слева сверху">
               <label class="form-check-label" for="inlineRadio1"><i class="fa fa-align-left" aria-hidden="true"></i></label>
             </div>
             
