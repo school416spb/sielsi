@@ -40,9 +40,9 @@
 
     if (isset($_POST['add_school'])){
         
-        $school1 = htmlspecialchars($_POST['school1']);
-        $school2 = htmlspecialchars($_POST['school2']);
-        $school3 = htmlspecialchars($_POST['school3']);
+        $school1 = htmlspecialchars(str_replace("\"", "''", $_POST['school1']));
+        $school2 = htmlspecialchars(str_replace("\"", "''", $_POST['school2']));
+        $school3 = htmlspecialchars(str_replace("\"", "''", $_POST['school3']));
         $director = htmlspecialchars($_POST['director']);
         $site = htmlspecialchars($_POST['site']);
         $inn = htmlspecialchars($_POST['inn']);
@@ -73,9 +73,9 @@
 
     if (isset($_POST['update'])){
         
-        $school1 = htmlspecialchars($_POST['school1']);
-        $school2 = htmlspecialchars($_POST['school2']);
-        $school3 = htmlspecialchars($_POST['school3']);
+        $school1 = htmlspecialchars(str_replace("\"", "''", $_POST['school1']));
+        $school2 = htmlspecialchars(str_replace("\"", "''", $_POST['school2']));
+        $school3 = htmlspecialchars(str_replace("\"", "''", $_POST['school3']));
         $director = htmlspecialchars($_POST['director']);
         $site = htmlspecialchars($_POST['site']);
         $inn = htmlspecialchars($_POST['inn']);
