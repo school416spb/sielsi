@@ -203,7 +203,7 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
             $pdf->Write(21, iconv('utf-8', 'windows-1251', $school3));
         
             $pdf->SetX($x);
-            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"));
+            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"), "https://sielsi.ru/root/signature.html");
             
             //дата и время подписания
             $pdf->SetX($x);
@@ -293,7 +293,7 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
             $pdf->Write(21, iconv('utf-8', 'windows-1251', $school3));
         
             $pdf->SetX($x);
-            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"));
+            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"), "https://sielsi.ru/root/signature.html");
             
             //дата и время подписания
             $pdf->SetX($x);
@@ -391,7 +391,7 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
             $pdf->Write(21, iconv('utf-8', 'windows-1251', $school3));
         
             $pdf->SetX($x);
-            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"));
+            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"), "https://sielsi.ru/root/signature.html");
             
             //дата и время подписания
             $pdf->SetX($x);
@@ -481,7 +481,7 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
             $pdf->Write(21, iconv('utf-8', 'windows-1251', $school3));
         
             $pdf->SetX($x);
-            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"));
+            $pdf->Write(32, iconv('utf-8', 'windows-1251',"Подписано электронной подписью"), "https://sielsi.ru/root/signature.html");
             
             //дата и время подписания
             $pdf->SetX($x);
