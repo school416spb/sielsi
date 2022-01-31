@@ -99,6 +99,11 @@
               <label class="form-check-label text-secondary" for="inlineRadio">Печать на всех листах</label>
             </div>
             
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="whereIS" id="inlineRadio" value="3" required="" style="cursor: pointer;" title="Печать на последнем листе">
+              <label class="form-check-label text-secondary" for="inlineRadio">Печать на последнем листе</label>
+            </div>
+            
             <hr>
             
             <!--Дата в момент подписи-->
