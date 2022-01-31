@@ -1,6 +1,7 @@
 <?php
 
 header('Content-Type: text/html; charset=utf-8');
+echo '<head><title>Сертификат SIELSI</title><link rel="shortcut icon" href="../img/favicon.ico"></head>';
 
 function getSSL($domain_name)
 {
