@@ -81,7 +81,7 @@
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
         
-        <form action="../script/sign.php" method="POST" enctype="multipart/form-data">
+        <form action="../script/sign.php" method="POST" enctype="multipart/form-data" target="_blank">
 
             <p><input type="file" name="filename" class="form-control-file" accept="application/pdf" required=""></p>
             
