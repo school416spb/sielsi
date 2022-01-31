@@ -1,5 +1,7 @@
 <?php
 
+header('Content-Type: text/html; charset=utf-8');
+
 function getSSL($domain_name)
 {
     $errno = 0;
@@ -30,8 +32,13 @@ function getSSL($domain_name)
 }
 
 $certinfo = getSSL("sielsi.ru");
-echo "<pre style='color: #00f;'>";
+
+echo '<div style="margin: 0 auto; width: 50%;"><h1 style="color: #00f;">Данные о сертификате SIELSI:</h1><hr>';
+
+echo "<pre style='color: #a9a9a9;'>";
 print_r($certinfo);
 echo "</pre>";
+
+echo '<hr><p style="text-align: center;"><a href="https://letsencrypt.org/" target="_blank">&copy; Let`s Encrypt</a></p></div>';
 
 ?>
