@@ -10,7 +10,6 @@
         body{
             text-align: center;
             color: #0000ff;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
             background-image: url('../img/dotted.png');
         }
         p{
@@ -28,17 +27,31 @@
 </head>
 <body>
     
-    <img src="../img/signature.gif" alt="" width="128">
-
-    <h1>Документ подписан</h1>
-    <h2>простой электронной подписью</h2>
-    <h3>средствами сервиса <a href="https://sielsi.ru" target="_blank">SIELSI.RU</a></h3>
+    <div style="background-color: #fff; width: 500px; margin: 0 auto; padding: 20px;">
+        <img src="../img/signature.gif" alt="" width="64">
     
-    <img src="../img/qr.png" alt="" width="256">
-    
-    <p>
-        <small>2021 &copy; SIELSI</small>
-    </p>
+        <h1>Документ подписан</h1>
+        <h4>простой электронной подписью</h4>
+        <h4>средствами сервиса <a href="https://sielsi.ru" target="_blank">SIELSI</a></h4>
+        
+        <hr>
+        
+        <p>
+            <small>Документ не был изменен с момента подписи</small>
+        </p>
+        
+        <p>
+            <button type="button" onclick="window.location.href='cert.php';" style="cursor: pointer;">Сертификат</button>
+        </p>
+        
+        <img src="../img/qr.png" alt="" width="256">
+        
+        <hr>
+        
+        <p>
+            <small>2021 &copy; SIELSI</small>
+        </p>
+    </div>
 
 </body>
 </html>
