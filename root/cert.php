@@ -37,7 +37,7 @@ function getSSL($domain_name)
 $certinfo = getSSL("sielsi.ru");
 
 
-echo '<div style="margin: 0 auto; width: 50%; background-color: #fff; padding: 20px;"><p style="text-align: center;"><img src="../img/verify.gif" alt="" width="64"></p><hr><h1 style="text-align: center;">Данные о сертификате SIELSI</h1><hr>';
+echo '<div style="margin: 0 auto; width: 50%; background-color: #fff; padding: 20px; box-shadow: 0px 0px 5px rgba(0,0,0,0.25);"><p style="text-align: center;"><img src="../img/verify.gif" alt="" width="64"></p><hr><h1 style="text-align: center;">Данные о сертификате SIELSI</h1><hr>';
 
 echo "<pre style='color: #a9a9a9;'>";
 print_r($certinfo);
