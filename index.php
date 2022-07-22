@@ -32,7 +32,7 @@
 		            exit();
 
                     } else {
-                      $error='<div class="alert alert-danger" role="alert">Не верный логин или пароль!</div>';
+                      $error='<div class="alert alert-danger" role="alert">Неверный логин или пароль!</div>';
                     }
                 
                 $conn->close();
